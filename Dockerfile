@@ -34,3 +34,4 @@ RUN pip install --no-cache-dir -U pyrogram==2.0.106 tgcrypto==1.2.5
 
 # ✅ Final command: start Flask + Bot together
 CMD ["sh", "-c", "gunicorn app:app & python3 main.py"]
+
